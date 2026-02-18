@@ -8,8 +8,8 @@ This journey is focused on developing a deep understanding of data structures, a
 | Category | Progress | Status |
 | :--- | :--- | :--- |
 | Arrays & Hashing | 12 / 22 | 🟡 In Progress |
-| Two Pointers | 0 / 10 | 🔴 Not Started |
-| Sliding Window | 0 / 10 | 🔴 Not Started |
+| Stack | 0 / 14 | 🔴 Not Started |
+| Two Pointers | 0 / 13 | 🔴 Not Started |
 | **Total** | **12 / 250** | **4.8% Complete** |
 
 ## 🛠️ Tech Stack
