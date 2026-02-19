@@ -55,18 +55,18 @@ class Solution:
     #         self.quick_sort(nums, low, pivot_index - 1)
     #         self.quick_sort(nums, pivot_index + 1, high)
 
-    # def _partition(self, nums: List[int], low: int, high: int) -> int:
-    #     # avoid: worst-case scenario
-    #     rand_idx = random.randint(low, high)
-    #     nums[rand_idx], nums[high] = nums[high], nums[rand_idx]
-    #     pivot = nums[high] 
-    #     i = low
-    #     for j in range(low, high):
-    #         if nums[j] <= pivot:
-    #             nums[i], nums[j] = nums[j], nums[i]
-    #             i += 1
-    #     nums[i], nums[high] = nums[high], nums[i]
-    #     return i
+    def _partition(self, nums: List[int], low: int, high: int) -> int:
+        # avoid: worst-case scenario
+        rand_idx = random.randint(low, high)
+        nums[rand_idx], nums[high] = nums[high], nums[rand_idx]
+        pivot = nums[high] 
+        i = low
+        for j in range(low, high):
+            if nums[j] <= pivot:
+                nums[i], nums[j] = nums[j], nums[i]
+                i += 1
+        nums[i], nums[high] = nums[high], nums[i]
+        return i
 
 # heap sort
     
